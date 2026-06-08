@@ -6,15 +6,13 @@
     "source.organizeImports": "always"
   },
   "markdownlint.run": "onType",
-  "markdownlint.config": {
-    "MD010": false,
-    "MD024": false,
-    "MD033": false,
-    "MD041": false
-  },
+  "markdownlint.configFile": ".markdownlint-cli2.yaml",
+  "textlint.run": "onType",
+  "textlint.configPath": ".textlintrc.json",
+  "textlint.ignorePath": ".textlintignore",
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
     "editor.wordWrap": "off",
     "files.trimTrailingWhitespace": false
-  },
+  }
 }
